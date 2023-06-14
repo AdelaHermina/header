@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ice-cream</title>
+    <link rel="stylesheet" href="modern-normalize.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="_base.css" />
+  </head>
+</html>
+<body>
+  <header class="header">
+    <div class="container">
+      <picture class="header-logo" >
+          <!-- Desktop -->
+          <source
+            media="(min-width:1280px)"
+            srcset="logo.png, "
+          />
+          <!-- Tablet -->
+          <source media="(min-width:768x)" srcset="logo.png, " />
+          <!-- Mobile -->
+          <source
+            media="(min-width:1200px)"
+            srcset="logo.png, milk@2x.svg 2x"
+          />
+          <img src="./logo.png"  />
+        </picture>
+      <nav>
+        <ul class="header-nav">
+          <li class="header-nav__design">Home</li>
+          <li class="header-nav__design">About us</li>
+          <li class="header-nav__design">How it's made</li>
+          <li class="header-nav__design">Our products</li>
+          <li>Contact</li>
+        </ul>
+        <button class="header-button">
+          Buy now
+          <svg class="header-button__vector">
+            <use href="./src/images/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <h1 class="hero-section__title">
+          Ice cream made with <span>passion </span>
+        </h1>
+        <div class="hero-section__button">
+          <button class="hero-section__button-product">Products</button>
+          <button class="hero-section__button-made">How it's made</button>
+        </div>
+        <div >
+        <picture class="hero-section__image--milk" >
+          <!-- Desktop -->
+          <source
+            media="(min-width:1280px)"
+            srcset="milky.png, "
+          />
+          <!-- Tablet -->
+          <source media="(min-width:768x)" srcset="milky.png, " />
+          <!-- Mobile -->
+          <source
+            media="(min-width:1200px)"
+            srcset="milky.png, milk@2x.svg 2x"
+          />
+          <img src="./milky.png"  />
+        </picture>
+        </div>
+        <p class="hero-section__p">
+          Indulge in a scoop of ice cream made with passion and treat your taste
+          buds to an unforgettable experience!
+        </p>
+      </div>
+      <div>
+      <picture class="hero-section__image--circle" >
+          <!-- Desktop -->
+          <source
+            media="(min-width:1280px)"
+            srcset="circle.png, "
+          />
+          <!-- Tablet -->
+          <source media="(min-width:768x)" srcset="circle.png, " />
+          <!-- Mobile -->
+          <source
+            media="(min-width:1200px)"
+            srcset="circle.png, milk@2x.svg 2x"
+          />
+          <img src="./circle.jpg"  />
+        </picture>
+        </div>
+      <div>
+      <picture class="hero-section__image--icecream" >
+          <!-- Desktop -->
+          <source
+            media="(min-width:1280px)"
+            srcset="icecream.png, "
+          />
+          <!-- Tablet -->
+          <source media="(min-width:768x)" srcset="icecream.png, " />
+          <!-- Mobile -->
+          <source
+            media="(min-width:1200px)"
+            srcset="icecream.png, milk@2x.svg 2x"
+          />
+          <img src="./icecream.png"  />
+        </picture>
+        </div>
+        <div>
+       <picture class="hero-section__image--woman" >
+          <!-- Desktop -->
+          <source
+            media="(min-width:1280px)"
+            srcset="woman.png, "
+          />
+          <!-- Tablet -->
+          <source media="(min-width:768x)" srcset="woman.png, " />
+          <!-- Mobile -->
+          <source
+            media="(min-width:1200px)"
+            srcset="woman.png, milk@2x.svg 2x"
+          />
+          <img src="./woman.png"  />
+        </picture>
+        </div>
+    </section>
+  </main>
+</body>
+</html>
